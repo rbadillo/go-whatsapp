@@ -15,8 +15,8 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/Rhymen/go-whatsapp/crypto/cbc"
-	"github.com/Rhymen/go-whatsapp/crypto/hkdf"
+	"github.com/rbadillo/go-whatsapp/crypto/cbc"
+	"github.com/rbadillo/go-whatsapp/crypto/hkdf"
 )
 
 func Download(url string, mediaKey []byte, appInfo MediaType, fileLength int) ([]byte, error) {
